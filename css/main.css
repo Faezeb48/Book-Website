@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: IranSans;
+    src: url(../font/fa/eot/IRANSansWeb.eot);
+    src: url(../font/fa/ttf/IRANSansWeb.ttf);
+    src: url(../font/fa/woff/IRANSansWeb.woff);
+}
+/* start section menu */
+section.menu{
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(to bottom, rgba(114, 112, 97, 0.2), rgba(121, 104, 83, 0.5), rgba(85, 69, 54, 0.9));
+    line-height: 75px;
+    font-family: IranSans;
+    direction: rtl;
+}
+a{ 
+    font-size: 16px;
+    color: rgb(85, 69, 54);
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+}
+/* end of section menu */
+/* start section parallax1 */
+section.parallax1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(114, 112, 97, 0.2), rgba(121, 104, 83, 0.5), rgba(85, 69, 54, 0.9)), url('../images/image2.jpg.webp') center center no-repeat fixed;
+    background-size: cover;
+}
+/* end of section parallax1 */
+/* start section data */
+section.data{
+    font-family: IranSans;
+    width: 100%;
+    background-color: rgba(114, 112, 97, 0.2);
+    direction: rtl;
+}
+section.data>h1{
+    width: 100%;
+    height: 100px;
+    color: rgba(85, 69, 54, 0.9);
+    text-shadow: 10px 10px 25px rgba(26, 24, 23, 0.884);
+    line-height: 100px;
+    text-align: center;
+    font-style: italic;
+}
+section.data>div>img{
+   width: 750px;
+    height: 300px;
+    margin: 1% 300px ;
+}
+section.data>p{
+    display: inline-block;
+    width: 1000px;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+section.data>img{
+    width: 200px;
+    height: 150px;
+}
+div.sentencebox{
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(121, 104, 83, 0.5), rgba(131, 142, 173, 0.5), rgba(98, 151, 135, 0.9));
+    outline: 5px solid rgba(85, 69, 54, 0.9);
+    outline-offset: 10px;
+    margin: 2% 150px;
+}
+div.sentencebox>span{
+    line-height: 100px;
+    font-size: 18px;
+    color: rgb(48, 46, 46); 
+}
+
+/* end of section data */
+/* start section parallax2 */
+section.parallax2{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(243, 146, 35, 0.3), rgba(198, 236, 28, 0.5), rgba(82, 141, 219, 0.7), rgba(211, 129, 236, 0.9)), url('../images/image3.jpg') center right no-repeat fixed;
+    background-size: cover;
+}
+/* end of section parallax2 */
+/* start section gallery */
+section.gallery{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(114, 112, 97, 0.2);;
+}
+section.gallery>a{
+    display: inline-block;
+    width: 350px;
+
+}
+section.gallery>a>img{
+    display: inline-block;
+    width: 350px;
+    height: 250px;
+    border-radius: 75px;
+   transition: all 300ms linear;
+}
+section.gallery>a>img:hover{
+box-shadow: 5px 5px 2px rgb(235, 163, 9);
+}
+/* end of section gallery */
+/* start footer */
+footer{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(45deg, rgba(252, 223, 3, 0.2), rgba(60, 226, 27, 0.5), rgba(30, 109, 212, 0.9));
+    text-align: center;
+    line-height: 70px;
+    font-size: 14px;
+    font-family: 'IranSans';
+    direction: rtl;
+}
+
+/* end of footer */
